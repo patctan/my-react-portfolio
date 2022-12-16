@@ -1,10 +1,14 @@
-import NavBar from "./components/NavBar";
-import About from "./components/About";
+import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
-  return (
-<>filler text</>
-  );
-}
+
+
+const App = () => <PortfolioContainer />;
+
+// function App() {
+//   return (
+// <>filler text</>
+//   );
+// }
 
 export default App
