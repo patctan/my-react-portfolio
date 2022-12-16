@@ -1,0 +1,24 @@
+.NavContainer {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+h1 {
+    font-family:"Patrick Hand";
+    font-size: 300%;
+}
+
+a {
+    background-color: black;
+    color: white;
+    font-size:200%;
+    font-family:"Patrick Hand";
+    text-decoration: none;
+}
+
+p {
+    font-size: 150%;
+}

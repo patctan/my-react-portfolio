@@ -1,9 +1,10 @@
 import React from 'react';
+import "./styles/NavTabs.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul>
-            <li>
+        <div className='NavContainer'>
+            <div>
                 <a
                 // Make About page the home page
                 href="#about"
@@ -12,8 +13,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 >
                     About
                 </a>
-            </li>
-            <li>
+            </div>
+            <div>
                 <a
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
@@ -21,8 +22,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 >
                     Portfolio
                 </a>
-            </li>
-            <li>
+            </div>
+            <div>
                 <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
@@ -30,8 +31,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 >
                     Contact
                 </a>
-            </li>
-            <li>
+            </div>
+            <div>
                 <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
@@ -39,8 +40,8 @@ function NavTabs({ currentPage, handlePageChange }) {
                 >
                     Resume
                 </a>
-            </li>
-        </ul>
+            </div>
+        </div>
     );
 }
 
