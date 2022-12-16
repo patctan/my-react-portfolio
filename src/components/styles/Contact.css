@@ -1,0 +1,40 @@
+button {
+    background-color:rgb(81, 113, 165);
+    font-family: "Patrick Hand";
+    font-size:large;
+    color:white;
+    height: 30%;
+    width: 20%;
+}
+
+input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+input[type=text] {
+    background-color:rgb(155, 182, 171);
+}
+
+input[type=email] {
+    background-color: rgb(155, 182, 171);
+}
+
+.formBox {
+    border-radius: 5px;
+    background-color:rgb(63, 48, 71);
+    padding: 20px;
+    width: 30%;
+}
+
+.form {
+    background-color: rgb(63, 48, 71);
+}
+
+h3 {
+    background-color: rgb(63, 48, 71);
+    color:white;
+    font-family:"Patrick Hand";
+}

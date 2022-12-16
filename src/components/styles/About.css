@@ -2,7 +2,7 @@
     background-color:rgb(155, 201, 149);
 }
 
-img {
+.ProfilePic {
    width: 20%;
    height: 20%;
    border-radius: 45%;
@@ -21,9 +21,9 @@ img {
     border-style: solid;
     background-color:rgb(81, 113, 165);
     border-color: rgb(63, 48, 71);
-    border-radius: 25%;
+    border-radius: 10px;
 }
-p {
+.Bio {
     position: absolute;
     bottom: 30%;
     text-align: center;

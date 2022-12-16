@@ -9,7 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 // Make About page the home page
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className= {currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                 >
                     About
                 </a>
