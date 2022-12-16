@@ -1,4 +1,5 @@
-
+import NavBar from "./components/NavBar";
+import About from "./components/About";
 
 function App() {
   return (
@@ -6,4 +7,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
